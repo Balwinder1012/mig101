@@ -1,0 +1,177 @@
+body,#mainImage,#mainBackground{
+    margin: 0px;
+    padding: 0px;
+   
+}
+
+*{
+     font-family: Roboto,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    
+}
+html body{
+     font-family: Roboto,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    
+}
+
+#nav{
+    float: right;
+    position: absolute;
+}
+#mainImage{
+
+    width:100%;
+    height:-webkit-fill-available;
+    
+ 
+}
+
+
+#mainBackground{
+ 
+    position: relative;
+    text-align: center;
+    background-size: cover;
+    color: white;
+    width:100%;
+    height:100%;
+ 
+
+}
+
+
+.navMenu{
+    position: absolute;
+    color:darkslategrey;
+    font-size: 1.5vw;
+    top:40px;
+}
+
+
+#about{
+    right:18%;
+}
+#contri{
+    right:10.6%;
+}
+#ref{
+    right:1%
+}
+
+#topBar{
+    position: absolute;
+    top: 10%;
+ 
+    text-align: center;
+    width:80%;
+    
+    color:darkslategrey;
+    font-size: 4vw;
+    
+    
+    
+}
+#logoImage{
+    position: absolute;
+    width:80px;
+    height:80px;
+    top:5%;
+    left:2%;
+}
+#topContent{
+    position: absolute;
+    top:30%;
+    left: 20%;
+    line-height: 160%;
+    color:darkslategrey;
+     font-size: 2vw;
+}
+.choices{
+     color: darkslategrey;
+     cursor: pointer;
+}
+.mainChoices{
+    
+    position: absolute;
+    font-size:1.6vw;
+    top:55%;
+   
+}
+#international{
+    left:43%;
+}
+#national{
+    left:25%;
+}
+
+#aboutUsDiv{
+    position: relative;
+    //overflow:hidden;
+  //  border:10px red solid;
+    
+    
+}
+.ab{
+    position: absolute;
+    color:white;
+    top:7%;
+    
+}
+
+
+.Info{
+    font-size: 1.1vw;
+    top:22%;
+   // margin-top: 1%
+}
+#aboutUsImage{
+    
+    width:100%;
+    height:96%;
+    //  border:12px green solid;
+}
+
+.stripContent{
+    display:inline-block;
+    font-size: 1.8vw;
+    color:darkslategrey;
+    margin-top:1.5%
+    
+}
+.stripTitle{
+    background:#f3f9bb; 
+    height:15%;
+    text-align: center;
+}
+#missionContainer{
+//    border:4px solid blue;
+}
+#sTitle{
+    position: relative;
+    height:420px;width:100%;margin-top:28px;
+}
+#missionContent{
+    position: absolute;
+    top:30%;
+    color:darkslategrey;
+    font-size: 1.3vw;
+    text-align:justify;
+      margin-left: 10%;
+    margin-right: 10%;
+  
+}
+#References_Destination{
+    margin-top: -13%;
+}
+#refContainer{
+ 
+    height:420px;width:100%;
+    margin-top:-30px;
+
+}
+#refT{
+    margin-top: 10%;
+}
+.contriItems{
+    font-size: 1.5vw;
+    
+}
