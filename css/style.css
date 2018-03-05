@@ -213,3 +213,8 @@ html body{
 .bord{
     //border: 3px red solid;
 }
+@media screen and (max-width: 320px){#dd{display:none;}}
+@media screen and (max-width: 480px){#dd{display:none;}}
+@media screen and (max-width: 650px){#dd{display:none;}}
+@media screen and (max-width: 980px){#dd{display:none;}}
+@media screen and (max-width: 980px){#dd{display:none;}}
