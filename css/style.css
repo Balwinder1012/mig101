@@ -3,11 +3,20 @@ body,#mainImage,#mainBackground{
     padding: 0px;
    
 }
-
 *{
      font-family: Roboto,"Helvetica Neue",Helvetica,Arial,sans-serif;
-    
+     color:darkslategrey;
 }
+#container {
+    max-width: 1349px;
+    margin: auto;
+}
+body {
+    font: normal 100% Helvetica, Arial, sans-serif;
+    text-align: center;
+    align-content: center;
+}
+
 html body{
      font-family: Roboto,"Helvetica Neue",Helvetica,Arial,sans-serif;
     
@@ -20,7 +29,7 @@ html body{
 #mainImage{
 
     width:100%;
-    height:-webkit-fill-available;
+    height:100%;
     
  
 }
@@ -32,8 +41,11 @@ html body{
     text-align: center;
     background-size: cover;
     color: white;
-    width:100%;
-    height:100%;
+    width:1349px;
+    height:662px;
+  //  border:3px red solid;
+    margin:0px;
+    padding:0px;
  
 
 }
@@ -42,11 +54,16 @@ html body{
 .navMenu{
     position: absolute;
     color:darkslategrey;
-    font-size: 1.5vw;
+    font-size: 20px;
     top:40px;
+    cursor: pointer;
 }
 
-
+.choices{
+     color: darkslategrey;
+     cursor: pointer;
+     
+}
 #about{
     right:18%;
 }
@@ -57,15 +74,16 @@ html body{
     right:1%
 }
 
+
 #topBar{
     position: absolute;
-    top: 10%;
- 
+    top: 5%;
+    left:30%;
     text-align: center;
-    width:80%;
+    width:40%;
     
     color:darkslategrey;
-    font-size: 4vw;
+    font-size: 40px;
     
     
     
@@ -79,40 +97,69 @@ html body{
 }
 #topContent{
     position: absolute;
-    top:30%;
-    left: 20%;
+    width:100%;
+    text-align: center;
+    top:27%;
+
     line-height: 160%;
     color:darkslategrey;
-     font-size: 2vw;
+     font-size: 25px;
 }
-.choices{
-     color: darkslategrey;
-     cursor: pointer;
+#tbCh {
+  border-collapse: separate;
+  border-spacing: 50px 0;
+     color:darkslategrey;
 }
-.mainChoices{
-    
+
+#tbCh.td {
+  padding: 10px 0;
+}
+#chMain{
     position: absolute;
-    font-size:1.6vw;
-    top:55%;
-   
+    margin-left: 28.8%;
+    top:52%;
+   color:darkslategrey;
+    font-size: 23px
 }
-#international{
-    left:43%;
-}
-#national{
-    left:25%;
+#popCo{
+    
+    text-align:center;font-size:35px;margin-top:40px;
+    color:darkslategrey;
 }
 
 #aboutUsDiv{
     position: relative;
-    //overflow:hidden;
-  //  border:10px red solid;
+    height: 500px;
+//   border:3px red solid;
     
+}
+.strip{
     
+    width:100%;
+    height:50px;
+    //border:3px red solid;
+    background:#f3f9bb; 
+    text-align: center;
+    color:darkslategray;
+    font-size: 28px;
+   // margin:15px;
+    
+}
+.conStrip{
+  line-height: 50px;
+}
+#aboutUsImage{
+    width:100%;
+    height: 100%;
+}
+#imgCont{
+    position: relative;
+    width:100%;
+    height:100%;
 }
 .ab{
     position: absolute;
-    color:white;
+    
     top:7%;
     
 }
@@ -123,55 +170,46 @@ html body{
     top:22%;
    // margin-top: 1%
 }
-#aboutUsImage{
-    
-    width:100%;
-    height:96%;
-    //  border:12px green solid;
-}
-
-.stripContent{
-    display:inline-block;
-    font-size: 1.8vw;
-    color:darkslategrey;
-    margin-top:1.5%
+.contriItems{
+    font-size:18px;
+    color:white;
+    text-align: left;
     
 }
-.stripTitle{
-    background:#f3f9bb; 
-    height:15%;
-    text-align: center;
-}
-#missionContainer{
-//    border:4px solid blue;
-}
-#sTitle{
-    position: relative;
-    height:420px;width:100%;margin-top:28px;
+#missionDiv{
+    height:60%;   
+     //border: 3px red solid;
 }
 #missionContent{
-    position: absolute;
-    top:30%;
+  //  position: absolute;
+    //top:30%;
     color:darkslategrey;
-    font-size: 1.3vw;
+    font-size: 18px;
     text-align:justify;
       margin-left: 10%;
     margin-right: 10%;
+    margin-top: 3%;
+//     border: 3px red solid;
+    //background-color: cyan;
   
 }
-#References_Destination{
-    margin-top: -13%;
-}
-#refContainer{
- 
-    height:420px;width:100%;
-    margin-top:-30px;
-
-}
-#refT{
-    margin-top: 10%;
-}
-.contriItems{
-    font-size: 1.5vw;
+#refer{
     
+//    margin-left:25px;
+    height:40%
+    width:100%;
+    color:darkslategray;
+  //   border: 3px red solid;
+    
+}
+#refCon{
+    
+    margin-left: 8%;
+    margin-right: 10%;
+    margin-top: 3%;
+    // border: 3px red solid;
+    
+}
+.bord{
+    //border: 3px red solid;
 }
